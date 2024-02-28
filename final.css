@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: url(./pic/HD-wallpaper-long-road-asphalt-lake-dark-weather-scenic-clouds-landscape.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    align-items: start;
+    width: 90%;
+    height: 40%;
+    color:white;
+    padding-left: 130px;
+    padding-top: 60px;
+}
+.left{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.btn{
+    padding-left: 800px;
+    position: fixed;
+}
+
+
+.top h1 {
+    font-size: 75px;
+    padding-right: 20px;
+}
+
+.top p {
+    font-size: 40px;
+    color:white;
+    padding-top: 47px;
+}
+#cityname{
+    padding: 8px 8px;
+    background-color: lightgoldenrodyellow;
+    outline: none;
+    border: none;
+    margin-right: 3px;
+}
+#submit{
+    padding: 8px 6px;
+    color: white;
+    background-color: darkcyan;
+    border: none;
+    cursor: pointer;
+}
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 40%;
+    padding-left: 30px;
+    
+}
+.bottom div{
+    background: rgba(97, 96, 96, 0.616);
+    width: 15%;
+    height: 95%;
+    text-align: center;
+    color: white;
+}
+.bottom div p{
+    color: rgb(0, 102, 255);
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#t1{
+    color: rgb(12, 233, 60)
+}
+#t2{
+    color: rgb(12, 233, 60)
+}
+#t3{
+    color: rgb(12, 233, 60)
+}
+#t4{
+    color: rgb(12, 233, 60)
+}
+#t5{
+    color: rgb(12, 233, 60)
+}
+img{
+    opacity: 1.7;
+}
+#temperature{
+    color: darkviolet;
+}
